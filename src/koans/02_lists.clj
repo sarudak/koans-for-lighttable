@@ -1,4 +1,4 @@
-(meditations
+
   "Lists can be expressed by function or a quoted form"
   (= '(__ __ __ __ __) (list 1 2 3 4 5))
 
@@ -39,5 +39,5 @@
   (= __ (try
           (rest '())
           (catch IllegalStateException e
-            "No dice!"))))
+            "No dice!")))
 

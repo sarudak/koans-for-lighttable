@@ -1,4 +1,4 @@
-(meditations
+
   "We shall contemplate truth by testing reality, via equality"
   (= __ true)
 
@@ -30,4 +30,4 @@
   (= 'foo (symbol __))
 
   "When things cannot be equal, they must be different"
-  (not= :fill-in-the-blank __))
+  (not= :fill-in-the-blank __)

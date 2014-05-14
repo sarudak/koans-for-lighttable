@@ -1,4 +1,4 @@
-(meditations
+
   "You can use vectors in clojure as array-like structures"
   (= __ (count [42]))
 
@@ -27,4 +27,4 @@
   (= __ (subvec [:peanut :butter :and :jelly] 1 3))
 
   "Equality with collections is in terms of values"
-  (= (list 1 2 3) (vector 1 2 __)))
+  (= (list 1 2 3) (vector 1 2 __))

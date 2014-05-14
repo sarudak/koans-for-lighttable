@@ -2,7 +2,7 @@
   (let [{odds true evens false} (group-by __ coll)]
     [odds evens]))
 
-(meditations
+
 
   "To categorize a collection by some function, use group-by."
   (= __ (group-by count ["hello" "world" "foo" "bar"]))
@@ -32,4 +32,4 @@
      (group-by #(if (:bad %) :naughty-list :nice-list)
                [{:name "Jimmy" :bad true}
                 {:name "Jack" :bad false}
-                {:name "Joe" :bad true}])))
+                {:name "Joe" :bad true}]))

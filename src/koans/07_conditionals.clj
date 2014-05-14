@@ -7,7 +7,7 @@
         :cocked-pistol     :sirens
         :say-what?))
 
-(meditations
+
   "You will face many decisions"
   (= __ (if (false? (= 4 5))
           :a
@@ -43,4 +43,4 @@
 
   "But admit it when you don't know what to do"
   (= __
-     (explain-defcon-level :yo-mama)))
+     (explain-defcon-level :yo-mama))

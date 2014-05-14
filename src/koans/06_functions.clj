@@ -3,7 +3,7 @@
 
 (defn square [n] (* n n))
 
-(meditations
+
   "Calling a function is like giving it a hug with parentheses"
   (= __ (square 9))
 
@@ -34,4 +34,4 @@
           (fn [n] (* n n))))
 
   "But they are often better written using the names of functions"
-  (= 25 (___ square)))
+  (= 25 (___ square))

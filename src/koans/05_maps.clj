@@ -1,4 +1,4 @@
-(meditations
+
   "Don't get lost when creating a map"
   (= {:a 1 :b 2} (hash-map :a 1 __ __))
 
@@ -44,4 +44,4 @@
 
   "You can get the values in a similar way"
   (= (list __ __ __)
-     (sort (vals {2006 "Torino" 2010 "Vancouver" 2014 "Sochi"}))))
+     (sort (vals {2006 "Torino" 2010 "Vancouver" 2014 "Sochi"})))

@@ -1,6 +1,6 @@
-(meditations
+
   "There are many ways to generate a sequence"
-  (= __ (range 1 5))
+  (= [1 2 3 4 5] (range 1 5))
 
   "The range starts at the beginning by default"
   (= __ (range 5))
@@ -22,4 +22,4 @@
 
   "Iteration can be used for repetition"
   (= (repeat 100 :foo)
-     (take 100 (iterate ___ :foo))))
+     (take 100 (iterate ___ :foo)))

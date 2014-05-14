@@ -1,4 +1,4 @@
-(meditations
+
   "You can create a set by converting another collection"
   (= #{3} (set __))
 
@@ -15,4 +15,4 @@
   (= __ (clojure.set/intersection #{1 2 3 4} #{2 3 5}))
 
   "But don't forget about the difference"
-  (= __ (clojure.set/difference #{1 2 3 4 5} #{2 3 5})))
+  (= __ (clojure.set/difference #{1 2 3 4 5} #{2 3 5}))

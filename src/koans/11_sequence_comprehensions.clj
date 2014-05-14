@@ -1,6 +1,6 @@
-(meditations
+
   "Sequence comprehensions can bind each element in turn to a symbol"
-  (= __
+  (= [0 1 2 3 4 5]
      (for [x (range 6)]
        x))
 
@@ -30,4 +30,4 @@
       [:bottom :left] [:bottom :middle] [:bottom :right]]
      (for [row [:top :middle :bottom]
            column [:left :middle :right]]
-       __)))
+       __))
